@@ -1,0 +1,237 @@
+${concurso} dia ${pSorteio} - 
+tConcurso.innerHTML = `Resultado Mega-sena ${concurso} dia ${pSorteio} - ${diaDaSemana}`
+
+if (diaDaSemana == "1") {
+        diaDaMega.innerHTML = `segunda-feira`
+    } 
+    else if (diaDaSemana == "2") {
+        diaDaMega.innerHTML = `terça-feira`
+    } 
+    else if (diaDaSemana == "3") {
+        diaDaMega.innerHTML = `quarta-feira`
+    } 
+    else if (diaDaSemana == "4") {
+        diaDaMega.innerHTML = `quinta-feira`
+    }
+    else if (diaDaSemana == "5") {
+        diaDaMega.innerHTML = `sexta-feira`
+    }
+    else if (diaDaSemana == "6") {
+        diaDaMega.innerHTML = `sábado`
+    }
+    else if (diaDaSemana == "7") {
+        diaDaMega.innerHTML = `domingo`
+    }
+    else {
+        diaDaMega.innerHTML = `Hoje`
+    }
+
+
+
+    if (diaDaSemana == "1") {
+        diaDaMega = "segunda-feira"
+    } 
+    else if (diaDaSemana == "2") {
+        diaDaMega = "terça-feira"
+    } 
+    else if (diaDaSemana == "3") {
+        diaDaMega.innerHTML = "quarta-feira"
+    } 
+    else if (diaDaSemana == "4") {
+        diaDaMega = "quinta-feira"
+    }
+    else if (diaDaSemana == "5") {
+        diaDaMega = "sexta-feira"
+    }
+    else if (diaDaSemana == "6") {
+        diaDaMega = "`sábado`"
+    }
+    else if (diaDaSemana == "7") {
+        diaDaMega = "domingo"
+    }
+    else {
+        diaDaMega = "Hoje"
+    }
+
+
+    nS1 = bola01
+    nS2 = bola02
+    nS3 = bola03
+    nS4 = bola04
+    nS5 = bola05
+    nS6 = bola06
+
+    ${nS2} - ${nS3} - ${ns4} - ${nS5} - ${nS6}
+
+    No concurso passado, que acumulou, as dezenas sorteadas foram: ${nS1} ${nS2} - ${nS3} - ${ns4} - ${nS5} - ${nS6} Foram 49 apostas que acertaram 5 números (quina) e levaram cada R$ 47.248,93. Já com 4 acertos (quadra) foram 3.678 apostas ganhadoras de R$ 899,24 - veja os ganhadores por cidade.
+
+    mais3resultados = `${nS2} - ${nS3} - ${ns4} - ${nS5} - ${nS6}`
+
+
+    rmegaA.innerHTML = `No concurso da Mega-sena passado, que foi o ${cMegaPassado} ${rAcumulouPassado}, as dezenas sorteadas foram: ${nS1} - ${nS2} - ${nS3} - ${ns4} - ${nS5} - ${nS6}. Foram 49 apostas que acertaram 5 números (quina) e levaram cada R$ 47.248,93. Já com 4 acertos (quadra) foram 3.678 apostas ganhadoras de R$ 899,24 - veja os ganhadores por cidade.`
+
+
+    No concurso da Mega-sena passado, que foi o ${cMegaPassado} ${rAcumulouPassado}, as dezenas sorteadas foram: ${nS1} - ${nS2} - ${nS3} - ${ns4} - ${nS5} - ${nS6}. Foram ${ganhadorSena} apostas vencedoras da sena, ${ganhadorQuina} vencedores(as) que conseguiram acertar 5 números (quina) e levaram cada R$ ${premioQuina}. Já com 4 acertos (quadra) foram ${ganhadorQuadra} apostas ganhadoras, ficando cada um com de R$ ${premioQuadra}. Confira agora mesmo o resultado da <a href="https://megadehoje.com" target="_blank" rel="follow">Mega de Hoje</a>.
+
+    rMegaA.innerHTML = `No concurso da Mega-sena passado, que foi o ${cMegaPassado} ${rAcumulouPassado}, as dezenas sorteadas foram: ${nS1} - ${nS2} - ${nS3} - ${ns4} - ${nS5} - ${nS6}. Foram ${ganhadorSena} apostas vencedoras da sena, ${ganhadorQuina} vencedores(as) que conseguiram acertar 5 números (quina) e levaram cada R$ ${premioQuina}. Já com 4 acertos (quadra) foram ${ganhadorQuadra} apostas ganhadoras, ficando cada um com de R$ ${premioQuadra}. Confira agora mesmo o resultado da <a href="https://megadehoje.com" target="_blank" rel="follow">Mega de Hoje</a>.`
+
+
+    premioQuinaA = Number(premioQuina.value)
+    ganhadorQuinaA = Number(ganhadorQuina.value)
+
+
+    valorUnitarioQuina = premioQuinaA / ganhadorQuinaA.fixed(2)
+
+
+min-width: 20%;
+    max-width: 50%;
+    min-height: 100%;
+    max-height: 100%;
+
+    min-width: 20%;
+    max-width: 50%;
+    min-height: 100%;
+    max-height: 100%;
+
+    <div class="textResultado" id="rMegaA">No concurso da Mega-sena passado, que foi o <strong>2422</strong>, <strong>ACUMULOU!! ,</strong> as dezenas sorteadas foram:<strong> 02 - 07 - 10 - 20 - 30 - 46</strong>. Foram <strong>0</strong> apostas vencedoras da sena, <strong>110</strong> vencedores(as) que conseguiram acertar 5 números na (quina) e levaram cada um <strong>R$ 26.323,93 de reais</strong>. Já com 4 acertos (quadra) foram 6.942 apostas ganhadoras, ficando cada um com de <strong>R$ 595,88</strong> de reais. Confira agora mesmo o resultado da <a href="https://megadehoje.com" target="_blank" rel="follow">Mega de Hoje</a>.</div>
+
+
+
+    PREMIO DA MEGA sena
+
+    Formas de gastar o prêmio da Mega da Virada
+ 
+
+Este é o quarto concurso anual das loterias e é o mais aguardado justamente por entregar uma premiação magnífica. 
+
+ 
+
+Mesmo que você não pretenda concorrer ao prêmio desta edição, fica impossível não imaginar as coisas que poderão ser adquiridas pelos ganhadores que levarem o superprêmio para casa. 
+
+ 
+
+A primeira coisa que vem na cabeça de alguns participantes pode ser o pagamento de dívidas, investir em colégios particulares para os filhos, comprar uma casa e escolher os próximos destinos de viagens. 
+
+ 
+
+Comprando um carro novo 
+
+ 
+
+Existem carros luxuosos e potentes que podem ser adquiridos pelos apostadores que forem premiados com os R$ 300 milhões da Mega da Virada. 
+
+ 
+
+A primeira opção é a Ferrari Pininfarina Sergio, que custa cerca de R$ 16,1 milhões. Assim, você poderia adquirir 18 unidades e ainda sobraria R$ 8.940,00. 
+
+ 
+
+Já uma unidade do Koenigsegg CCXR Trevita custa R$ 25,8 milhões. Ou seja, mesmo comprando 10 modelos como este, ainda sobram R$ 41,2 milhões para o sortudo.
+
+ 
+
+Quer mais uma opção? O Mercedes Benz Maybach Exelero custa em torno de R$ 43,1 milhões, isso significa que com a premiação da Mega da Virada, você pode adquirir seis unidades deste carro e ainda sobra uma grana.
+
+ 
+
+Casas e Apartamentos 
+
+ 
+
+Somente na cidade de São Paulo, para adquirir uma cobertura de 1.060 m2 na Vila Nova Conceição, é preciso gastar R$ 36 milhões. 
+
+ 
+
+Enquanto isso, um apartamento de 750 m2 na Cidade Jardim pode custar em torno de R$ 21,8 milhões. Mas ambos os preços ainda podem ser pagos com folga pelo ganhador da Mega da Virada, certo? 
+
+ 
+
+Para morar em uma rua paralela com a Oscar Freire, no Jardim Paulista, o premiado poderia comprar uma cobertura de 720m2 com vista para toda a cidade, por R$ 23 milhões. 
+
+ 
+
+Em relação à casa dos famosos, dá para ter uma mansão igual a do atual governador de São Paulo, João Doria, avaliada em R$ 46 milhões. 
+
+ 
+
+A segunda maior mansão do brasil é a do banqueiro Joseph Safra e custa em torno de R$ 100 milhões. Seria possível comprar três dessas! 
+
+ 
+
+Além disso, daria para comprar a casa do ex-banqueiro Edemar Cid, que vale aproximadamente R$ 180 milhões e deixar o restante do prêmio para curtir a vida. 
+
+ 
+
+Considerada a casa mais cara do Brasil, uma mansão no Jardim Pernambuco localizado no bairro do Leblon, na cidade do Rio de Janeiro, foi motivo de diversas matérias publicadas em 2019, pois seu preço era de R$ 220 milhões. 
+
+ 
+
+Como deu para notar, o ganhador da Mega da Virada 2020 poderia escolher com facilidade alguma das casas mais luxuosas e caras do País para passar o restante da sua vida. 
+
+ 
+
+Colégios particulares mais caros 
+
+ 
+
+Se o ganhador da Mega da Virada tiver filhos, vai procurar as melhores escolas do Brasil e do mundo para realizar as matrículas. 
+
+ 
+
+Claro que em meio a tudo isso, é importante fazer uma pesquisa bem detalhada sobre a relação entre mensalidades e ensino de qualidade. 
+
+ 
+
+Para matricular o filho na famosa Avenues, que fica localizada no Real Parque, em São Paulo, o novo milionário deve pagar uma mensalidade que custa cerca de R$ 12 mil, em torno de R$ 144 mil por ano. 
+
+ 
+
+Se quiser, pode ainda colocar o estudante em uma instituição fora do Brasil. Localizado em Nova Jersey, nos Estados Unidos da América, o colégio Foxcroft custa em média R$ 224 mil anualmente, sem contar o internato. 
+
+ 
+
+Já o colégio Eton, que fica em West Berkshire, no Reino Unido, tem o valor anual de R$ 265 mil, cerca de R$ 22,164 mil por mês. Neste valor também não estão inclusas as despesas de internato. 
+
+ 
+
+Ainda no exterior, o colégio Alpin International Beau Soleil, situado na Suíça, tem a mensalidade estimada em R$ 24,5 mil, em torno de R$ 295 mil ao ano. 
+
+ 
+
+Ilhas paradisíacas 
+
+ 
+
+Além de poder receber este prêmio milionário, adquirir um novo carro, uma casa e matricular seus filhos em um dos melhores colégios do mundo, você ainda pode adquirir uma ilha paradisíaca. 
+
+ 
+
+Segundo matéria realizada pelo G1, a Ilha Pousadoro é a segunda mais cara do Brasil e fica localizada em Florianópolis (SC), custando em torno de R$ 41,5 milhões. Daria para comprar sete delas.
+
+ 
+
+Se o ganhador quiser gastar bem mais, pode optar pela Ilha de Pirichill, localizada em Alagoas, que custa cerca de U$ 20 milhões, aproximadamente R$ 108 milhões. 
+
+ 
+
+Segundo a Forbes, a Long Island, nos Estados Unidos, pode ser comprada pela bagatela de U$ 29 milhões, que na cotação atual seria de R$ 156,6 milhões.
+
+ 
+
+Já a Ilha Greek, no Mar Egeu, custa U$ 43,3 milhões, ou seja, seu valor é de R$ 233,8 milhões. Seria possível comprá-la e usar o resto do dinheiro para garantir a diversão no dia a dia.
+
+Resultado Mega-sena ${concurso} dia ${data} - ${dataMega}
+
+<meta name="keywords" content="workshop, vereadores eleitos lagoa dos patos mg">  <meta name="description" content="Workshop Vereadores Eleitos aconteceu em pirapora MG, confira os vereadores representantes no municipio de Lagoa dos Patos MG.">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<link rel="canonical" href="https://salamineira.com/vereadores-de-lagoa-dos-patos-mg-participam-de-workshop-vereadores-eleitos/" />
+<meta name="robots" content="index, follow" /><meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Vereadores de Lagoa dos Patos MG participam de Workshop em pirapora MG">
+<meta name="twitter:description" content="Workshop Vereadores Eleitos aconteceu em pirapora MG, confira os vereadores representantes no municipio de Lagoa dos Patos MG.">
+<meta name="twitter:image" content="https://salamineira.com/img/conclusao-workshop-veradores-eleito-lagoa-dos-patos-mg.jpg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sala Mineira do Empreendedor de Lagoa dos Patos MG">
+<meta property="og:title" content="Vereadores de Lagoa dos Patos MG participam de Workshop em pirapora MG">
+<meta property="og:description" content="Workshop Vereadores Eleitos aconteceu em pirapora MG, confira os vereadores representantes no municipio de Lagoa dos Patos MG.">
+<meta property="og:url" content="https://salamineira.com/vereadores-de-lagoa-dos-patos-mg-participam-de-workshop-vereadores-eleitos/"> 
+<meta property="og:image" content="https://salamineira.com/img/conclusao-workshop-veradores-eleito-lagoa-dos-patos-mg.jpg">

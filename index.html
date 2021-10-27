@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <script src="scripts/mega-sena.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    
+      <script>
+         $(function () {
+            $("#header").load("models/header.html");
+            $("#resultadoms").load("resultado-mega-sena.html");   
+            $("#footer").load("models/footer.html");
+         });
+      </script>
+    <title>Mega de Hoje - Resultados da Mega Sena e Loteria Nacional</title>
+</head>
+<body onload="megaSena2421()">
+    <header>
+        <div id="header"></div>
+        <div class="imagemApresentacaoIndex">
+            <div class="imagem-frontal">
+               <div class="fundoMegaResultado">
+                   <h1>Mega de Hoje</h1>
+                   <h2>Resultados da mega-sena e loteria nacional</h2>
+               </div>
+            </div>
+        </div>
+    </header>
+        
+    <main>
+       
+        <div><p>Menu acima e footer abaixo</p></div>
+        <div id="resultadoms"></div>
+    </main>
+    <div id="footer"></div>
+    
+</body>
+</html>

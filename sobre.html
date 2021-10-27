@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/resultado.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script>
+         $(function () {
+            $("#header").load("models/header.html");
+            $("#footer").load("models/footer.html");
+         });
+      </script>
+    <title>Modelo de Head e Footer</title>
+</head>
+<body>
+    <header>
+        <div id="header"></div>
+    </header>
+    <main>
+        <div>
+            <article>
+                <h1>Sobre o Mega de Hoje</h1>
+                <div>
+                    <img src="src/logo-mega-de-hoje.svg" alt="">
+                </div>
+                <p>Somos um site com noticias, informações e dicas de como ganhar na mega-sena.  Criado em 2018 o megadehoje.com te informa os últimos sorteios e premiações que aconteceram na mega sena. Confira nosso canal no youtube e instagram.
+                Resultado e dicas de como ganhar na loto-fácil, mega-sena e muito mais, todas as loterias nacional.</p>
+            </article>
+        </div>
+        <div>
+            <div class="textResultado" id="rMegaA">No concurso da Mega-sena passado, que foi o <strong>2422</strong>, <strong>ACUMULOU!! ,</strong> as dezenas sorteadas foram:<strong> 02 - 07 - 10 - 20 - 30 - 46</strong>. Foram <strong>0</strong> apostas vencedoras da sena, <strong>110</strong> vencedores(as) que conseguiram acertar 5 números na (quina) e levaram cada um <strong>R$ 26.323,93 de reais</strong>. Já com 4 acertos (quadra) foram 6.942 apostas ganhadoras, ficando cada um com de <strong>R$ 595,88</strong> de reais. Confira agora mesmo o resultado da <a href="https://megadehoje.com" target="_blank" rel="follow">Mega de Hoje</a>.</div>
+        </div>
+    </main>
+    <div id="footer"></div>
+    
+</body>
+</html>

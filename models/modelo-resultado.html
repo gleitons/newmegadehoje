@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/resultado.css">
+    <script src="scripts/mega-sena.js"></script>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    
+      <script>
+         $(function () {
+            $("#header").load("header.html");
+            $("#resultadoms").load("resultado-mega-sena.html");           
+            $("#footer").load("footer.html");
+         });
+      </script>
+    <title>Mega-sena 2421</title>
+</head>
+<body onload="megaSena2420()">
+    <header>
+        <div id="header"></div>
+
+    </header>
+    <main>
+        <!-- Titulo Resultado da Mega sena-->
+        <h1 class="infodoJava"><div id="tConcurso">Aguardando Concurso mega-sena... <p class="recaLoad">Resultado não carregou? <button onclick="recarregarPagina()">Recarregar</button></p> </div></h1>
+        <!-- FIM - Titulo Resultado da Mega sena-->
+
+        <!-- Subitulo Resultado da Mega sena-->
+        <h2 class="subTitleSorteio" ><div id="sTConcuros"></div></h2>
+        <!-- FIM - Subitulo Resultado da Mega sena-->
+
+        <!-- Imagem Capa Resultado da Mega sena-->
+        <img src="imagens/logo-mega-de-hoje-md.png" alt="">
+        <!-- FIM - Imagem Capa Resultado da Mega sena-->
+
+        <!-- Pequena descrição Resultado anterior da Mega sena-->
+        <div  class="textResultado" id="rMegaA"></div>
+        
+
+        <h2><div>Concurso ???? da mega-sena: Veja o resultado final.</div></h2>
+        <!-- Resultado da mega-sena 2421-->
+        <div class="tabelaCompleta">
+            <div id="resultadoms"></div>
+        </div>
+        <!-- FIM - Resultado da mega-sena 2421-->
+
+        <h2><div>Como jogar na Mega-sena</div></h2>
+        <div class="textResultado" id="comoJogarNaMegaSena">
+            <p>Recarregue a página para ver a explicação</p>
+        </div>
+
+    </main>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="metad">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/resultado.css">
+    <script src="/scripts/mega-sena.js"></script>
+    <script src="/scripts/main.js"></script>
+    <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
+    <link rel="import" href="">
+    
+      <script>
+         $(function () {
+            $("#header").load("/models/header.html");
+            $("#resultadoms").load("/models/modelo-resultado-mega-sena.html");  
+            $("#palpiteMs").load("/models/capa-palpite-mega-sena.html"); 
+            $("#avisoImportante").load("/models/aviso-importante.html");    
+            $("#geradorMetaTags").load("/models/gerador-meta-tags.html");   
+                  
+            $("#probabilidadeMS").load("/models/probabilidade-mega-sena.html"); 
+            $("#imagefront").load("/models/modelo-capa-mega-sena.html");          
+            $("#footer").load("/models/footer.html");
+        
+         });
+      </script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150419520-1"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+       gtag('config', 'UA-150419520-1');
+      </script>
+
+    <title>Palpite da mega-sena 2422</title>
+</head>
+<body onload="megaSena2422()">
+    <header>
+        <div id="header"></div>
+
+    </header>
+    <main>
+        <div class="corpoGeral">
+            <div>
+                <div class="maisNoticias">
+                    
+                    
+                </div>
+                <div class="artigoCentral">
+                    <article >
+                        <div id="avisoImportante"></div>                        
+                        <!-- Titulo Resultado da Mega sena-->
+                        <h1 class="displayNonePalpite infodoJava"><div id="tConcurso">Aguardando palpite mega-sena... <p class="recaLoad">Resultado não carregou? <button onclick="recarregarPagina()">Recarregar</button></p> </div></h1>
+                        <h1 class="infodoJava"><div id="pConcursoP">Aguardando palpite mega-sena... <p class="recaLoad">Resultado não carregou? <button onclick="recarregarPagina()">Recarregar</button></p> </div></h1>
+                        <!-- FIM - Titulo Resultado da Mega sena-->
+                        <!-- Subitulo Resultado da Mega sena-->
+                        <h2 class=" displayNonePalpite subTitleSorteio" ><div id="sTConcuros"></div></h2>
+                        <h2 class="subTitleSorteio" ><div id="sTPalpite"></div></h2>
+                        <!-- FIM - Subitulo Resultado da Mega sena-->
+                         <!-- Imagem front-->
+                         <div class="tabelaCompleta">
+                            <div id="palpiteMs"></div>
+                        </div>
+                        <div style="display: none;">
+                            <div id="imagefront"></div>
+                        </div>
+                        <div id="descAbaixoPalpite"></div>
+                        <h2 class="displayNonePalpite"><div id="titleVejaOResultado">Concurso ???? da mega-sena: Veja o resultado final.</div></h2>
+                        <h2><div id="titleVejaOPalpite">Palpite da mega-sena. Mega de hoje</div></h2>
+                        <!-- FIM - image front-->
+            
+            
+                        <!-- Pequena descrição Resultado anterior da Mega sena-->
+                        <div  class="textResultado" id="rPalpiteMega"></div>
+                        
+
+                        <div id="ImagemFundoP"></div>
+                        
+
+                        <div  class="textResultado" id="rMegaA"></div>
+                        
+                        
+                        
+                        <!-- Resultado da mega-sena 2421-->
+                        <div class="displayNonePalpite tabelaCompleta">
+                            <div id="resultadoms"></div>
+                        </div>
+                        <!-- FIM - Resultado da mega-sena 2421-->
+                        <!-- Imagem Capa Resultado da Mega sena-->
+            
+                        <!-- FIM - Imagem Capa Resultado da Mega sena-->
+                        <h2><div>Como jogar na Mega-sena</div></h2>
+                        <div class="textResultado" id="comoJogarNaMegaSena">
+                            <p>Recarregue a página para ver a explicação</p>
+                        </div>
+                        <img class="imagemArtigo" src="imagens/logo-mega-de-hoje-md.png" alt="">
+                        <div class="tabelaCompleta">
+                            <div id="probabilidadeMS"></div>
+                        </div>
+                    </article>
+                </div>
+                <div class="novidadesPropagandas" id="novidadesPropagandas">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="geradorMetaTags"></div>
+    </main>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+</body>
+</html>

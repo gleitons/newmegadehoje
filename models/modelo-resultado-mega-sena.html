@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="estilos/resultado.css">
+<script src="scripts/mega-sena.js"></script>
+
+<body onload="megaSena2421()">
+    <!--Mega Sena-->
+
+    <div class="tabelaResultado" >
+        <div class="mesmaLinha">
+            <div class="cEsquerda">
+                <h1 class="concursoms" ><div id="concursoData">CONCURSO ???? - DATA ????</div></h1>
+                <div class="bolasSorteio">
+                    <div class="bolasms" >
+                        <div class="numeros"><div id="ms01">??</div></div>
+                    </div>
+                    <div class="bolasms" >
+                        <div class="numeros"><div id="ms02">??</div></div>
+                    </div>
+                    <div class="bolasms" >
+                        <div class="numeros"><div id="ms03">??</div></div>
+                    </div>
+                    <div class="bolasms" >
+                        <div class="numeros"><div id="ms04">??</div></div>
+                    </div>
+                    <div class="bolasms" >
+                        <div class="numeros"><div id="ms05">??</div></div>
+                    </div>
+                    <div class="bolasms" >
+                        <div class="numeros"><div id="ms06">??</div></div>
+                    </div>
+                </div>
+                <p>Resultado não carregou? <button onclick="recarregarPagina()">Recarregar</button></p>
+            </div>
+            <div class="cDireita">
+                <table class="resultadoVerde">
+                    <tr class="linhaResultado">
+                        <td class="acertos"></td>
+                        <td class="ganhadores">Ganhadores</td>
+                        <td class="premio">Prêmio</td>
+                    </tr>
+                    <tr class="linhaResultado">
+                        <td class="acertos">SENA</td>
+                        <td class="ganhadores"><div id="qtdSena">?? Pessoas</div></td>
+                        <td class="premio"><div id="pSena">????</div></td>
+                    </tr>
+                    <tr class="linhaResultado">
+                        <td class="acertos">QUINA</td>
+                        <td class="ganhadores"><div id="qtdQuina">?? Pessoas</div></td>
+                        <td class="premio"><div id="pQuina">????</div></td>
+                    </tr>
+                    <tr class="linhaResultado">
+                        <td class="acertos">QUADRA</td>
+                        <td class="ganhadores"><div id="qtdQuadra">?? Pessoas</div></td>
+                        <td class="premio"><div id="pQuadra">????</div></td>
+                    </tr>
+                </table>
+                
+                    <h1>
+                        <div class="seGanhdador" id="acumulaOuGanha">AGUARDANDO...</div>
+                    </h1>
+                
+            </div>
+        </div>
+        <div class="proximoSorteio">
+            <div id="proximoSorteio">Próximo Sorteio: ???? Prêmio Estimado: ????</div>
+        </div>
+    </div>
+
+</body>
+

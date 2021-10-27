@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+   
+      <script>
+         $(function () {
+            $("#header").load("models/header.html");
+            $("#footer").load("models/footer.html");
+         });
+      </script>
+    <title>Modelo de Head e Footer</title>
+</head>
+<body>
+    <header>
+        <div id="header"></div>
+    </header>
+    
+    <main>
+        <div class="divContato">
+            <div class="descricaoContato">
+                <h1>Entre em contato</h1>
+                <h2>Dúvidas e esclarecimentos, enviei sua mensagem agora mesmo</h2>
+            </div>
+            <div class="formulariopContato">
+                <form class="formulario" action="post">
+                    <p>Nome:</p>
+                    <input class="inputs" type="text" placeholder="Nome" name="" id="">
+                    <p>E-mail:</p>
+                    <input class="inputs" type="email" placeholder="Insira seu E-mail" name="e-mail" id="">
+                    <p>Sua Mensagem</p>
+                    <textarea class="inputs" name="Insira sua Mensagem" id="" cols="30" rows="10"></textarea>
+                    <input class="btnEnviar" type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
+    
+</body>
+</html>
